@@ -9,4 +9,17 @@
 body {
     font-family: "Lato", Helvetica, sans-serif;
     font-weight: 300px;
+    color: #a3a3a3;
+}
+
+h1, h2 {
+    font-family: 'Lato', Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
