@@ -361,7 +361,7 @@ footer {
 .form-section {
     position: relative;
     clear: both;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg") no-repeat center center / 100%;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg") no-repeat center center / cover;
     height: 100vh;
 }
 
