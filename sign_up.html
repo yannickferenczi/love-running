@@ -31,21 +31,36 @@
     </header>
     <section class="form-section">
         <form action="https://formdump.codeinstitute.net/" method="POST">
-            <h2>Let's get you signed up!</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" type="text" name="first_name" required>
-            <label for="lname">Last Name</label>
-            <input id="lname" type="text" name="last_name" required>
-            <label for="email">Email Address</label>
-            <input id="email" type="email" name="email_address" required>
-
-            <label for="road">Road</label>
-            <input id="road" type="radio" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input id="trail" type="radio" name="running_preference" value="trail">
-            <label for="both">Both</label>
-            <input id="both" type="radio" name="running_preference" value="both">
-            <input type="submit" value="Let's Run!">
+            <h2>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h2>
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first_name" required>
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last_name" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email_address" required>
+            </div>
+            <div>
+                <div class="radio-paired">
+                    <label for="road" class="radio-items">Road</label>
+                    <input id="road" class="radio-items" type="radio" name="running_preference" value="road" required>
+                </div>
+                <div class="radio-paired">
+                    <label for="trail" class="radio-items">Trail</label>
+                    <input id="trail" class="radio-items" type="radio" name="running_preference" value="trail">
+                </div>
+                <div class="radio-paired">
+                    <label for="both" class="radio-items">Both</label>
+                    <input id="both" class="radio-items" type="radio" name="running_preference" value="both">
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Let's Run!">
+            </div>
         </form>
     </section>
     <footer>
