@@ -224,7 +224,13 @@ footer li {
     font-size: 30px;
 }
 
-footer a:hover {
+
+footer i {
+    color: #333;
+    font-size: 40px;
+}
+
+footer i:hover {
     color: blue;
 }
 
@@ -261,7 +267,12 @@ footer {
     margin: 1%;	
     padding: 5%;	
     color: #3a3a3a;	
-}	
+}
+
+footer a:hover {
+    color: blue;
+}
+
 /* gallery */	
 #photos {	
     clear: both;	
@@ -401,10 +412,19 @@ form input[type=text], form input[type=email] {
     line-height: 20px;
 }
 
+form input[type=text]:hover, form input[type=email]:hover {
+    border-color: rgba(255, 0, 106, 1);
+}
+
+form input[type=text]:focus, form input[type=email]:focus {
+    background-color: rgba(255, 0, 106, 0.4);
+}
+
 .radio-items {
     display: inline;
     line-height: 20px;
     vertical-align: middle;
+    accent-color: rgba(255, 0, 106, 1);
 }
 
 .radio-paired {
@@ -420,4 +440,9 @@ input[type=submit] {
     border: none;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+input[type=submit]:hover {
+    color: rgba(255, 0, 106, 1);
+    background-color: #fff;
 }
