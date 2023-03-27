@@ -310,7 +310,7 @@ footer {
     }
 }
 
-/* For smaller screens size under 1200px */
+/* For smaller screens size under 950px */
 @media screen and (max-width: 950px) {
     #menu{
         clear: left;
@@ -342,5 +342,15 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
