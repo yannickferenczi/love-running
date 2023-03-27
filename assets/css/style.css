@@ -243,9 +243,6 @@ footer a:hover {
 
 /* Media queries */
 
-@media screen and (max-width: 1200px) {
-    box-sizing: border-box;	
-}	
 #times h2 {	
     color: #fafafa;	
 }	
@@ -274,8 +271,10 @@ footer {
 }	
 #photos > img {	
     width: 100%;	
-}	
+}
+
 /* Media queries */	
+
 /* For larger to medium screens size from 1200px wide and down */	
 @media screen and (max-width: 1200px) {	
     #club-ethos {	
@@ -300,5 +299,16 @@ footer {
     }	
     hr {	
         display: none;	
+    }
+}
+
+/* For smaller screens size under 1200px */
+@media screen and (max-width: 950px) {
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 }
